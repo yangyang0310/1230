@@ -1,69 +1,305 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>美团打车</title>
+    <title>品优购</title>
+    <!-- 引入css -->
     <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/index.css" />
+    <!-- 引入favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="description" content="说明" />
+    <meta name="keywords" content="关键字" />
   </head>
-
   <body>
-    <!-- 标题部分 -->
+    <!-- 小导航部分 -->
+    <div class="shortcut">
+      <div class="w">
+        <!-- 左边标题 -->
+        <div class="fl">
+          <ul>
+            <li>品优购欢迎您！</li>
+            <li>
+              <a href="javascript:void(0)">请登录</a>
+            </li>
+            <li>
+              <a class="red" href="javascript:void(0)">免费注册</a>
+            </li>
+          </ul>
+        </div>
+        <!-- 右边列表 -->
+        <div class="fr">
+          <ul>
+            <li><a href="#">我的订单</a></li>
+            <li></li>
+            <li><a class="icon" href="#">我的品优购</a></li>
+            <li></li>
+            <li><a href="#">品优购会员</a></li>
+            <li></li>
+            <li><a href="#">企业采购</a></li>
+            <li></li>
+            <li><a class="icon" href="#">关注品优购</a></li>
+            <li></li>
+            <li><a class="icon" href="#">客户服务</a></li>
+            <li></li>
+            <li><a class="icon" href="#">网站导航</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- header部分 -->
     <header class="header w">
-      <h1 class="logo">
-        <a href="#">
-          <img src="./images/Header.png" alt="" />
-        </a>
-      </h1>
-      <div class="nav">
+      <!-- logo -->
+      <div class="logo">
+        <h1>
+          <a href="./index.html">品优购</a>
+        </h1>
+      </div>
+      <!-- 搜索 -->
+      <div class="search">
+        <input type="search" />
+        <button>搜索</button>
+      </div>
+      <!-- 购物车 -->
+      <div class="shopcar">我的购物车<i>8</i></div>
+      <!-- 热词 -->
+      <div class="keywords">
         <ul>
           <li>
-            <a href="#">车主招募</a>
+            <a class="red" href="#">优惠购首发</a>
           </li>
           <li>
-            <a href="#">乘客用车</a>
+            <a href="#">亿元优惠</a>
           </li>
           <li>
-            <a href="#">关于我们</a>
+            <a href="#">9.9元团购</a>
           </li>
           <li>
-            <a href="#">联系我们</a>
+            <a href="#">美满99减30</a>
+          </li>
+          <li>
+            <a href="#">办公用品</a>
+          </li>
+          <li>
+            <a href="#">电脑</a>
+          </li>
+          <li>
+            <a href="#">通信</a>
           </li>
         </ul>
       </div>
     </header>
-    <!-- banner部分 -->
-    <div class="banner w">
-      <ul>
-        <li>
-          <a href="#">
-            <img src="./images/Banner.jpg" alt="" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!-- 底部 -->
-    <div class="footer w">
-      <div class="left">
-        <img src="./images/1.jpg" alt="" />
+    <!-- nav部分 -->
+    <nav class="nav">
+      <div class="w">
+        <div class="dropdown fl">
+          <div class="dt">全部商品分类</div>
+          <div class="dd">
+            <ul>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+              <li>
+                <a href="#">家用电器</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="navitems fl">
+          <ul>
+            <li>
+              <a href="#">服装城</a>
+            </li>
+            <li>
+              <a href="#">美妆馆</a>
+            </li>
+            <li>
+              <a href="#">传智超市</a>
+            </li>
+            <li>
+              <a href="#">全球购</a>
+            </li>
+            <li>
+              <a href="#">闪购</a>
+            </li>
+            <li>
+              <a href="#">团购</a>
+            </li>
+            <li>
+              <a href="#">拍卖</a>
+            </li>
+            <li>
+              <a href="#">有趣</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="right">
-        <h3 class="title1">关于美团打车</h3>
-        <p>
-          美团打车是美团旗下网约车平台，于2017年2月正式上线，并开始在江苏南京试点运行。美团的使命是“帮大家吃得更好，生活更好”。作为中国领先的生活服务电子商务平台，公司拥有美团、大众点评、美团外卖、美团打车、摩拜单车等消费者熟知的App，服务涵盖餐饮、外卖、打车、共享单车、酒店旅游、电影、休闲娱乐等200多个品类，业务覆盖全国2800个县区市。
-        </p>
-        <p>
-          打车业务源自美团用户需求驱动，平台用户存在出行需求，网约车业务能够帮助用户便捷实现“吃喝玩乐行”。
-        </p>
-        <p>
-          美团打车致力于帮助用户提升出行效率，创造美好生活，将打车与平台吃喝玩乐优势相结合的营销方式，一直是美团打车深入探索的重点。美团打车将持续打通生态，在“出行+消费”的场景串联上创造协同，为用户提供更好体验，为行业注入创新动力。
-        </p>
-        <h3 class="title2">客服热线</h3>
-        <span> 乘客 客服热线<a href="#">101-001-66 </a></span>
-        <span>司机 客服热线<a href="#">101-001-99</a></span>
+    </nav>
+    <!-- main -->
+    <div class="w">
+      <div class="main">
+        <div class="focus">
+          <img src="./upload/focus1.png" alt="" />
+        </div>
+        <div class="newflash">
+          <div class="hd"></div>
+          <div class="bd"></div>
+          <div class="pic"></div>
+        </div>
       </div>
     </div>
+    <!-- 底部栏 -->
+    <footer class="footer">
+      <div class="w">
+        <div class="mod_service">
+          <ul>
+            <li>
+              <h4></h4>
+              <div>
+                <h5>正品保障</h5>
+                <p>正品保障，提供发票</p>
+              </div>
+            </li>
+            <li>
+              <h4></h4>
+              <div>
+                <h5>正品保障</h5>
+                <p>正品保障，提供发票</p>
+              </div>
+            </li>
+            <li>
+              <h4></h4>
+              <div>
+                <h5>正品保障</h5>
+                <p>正品保障，提供发票</p>
+              </div>
+            </li>
+            <li>
+              <h4></h4>
+              <div>
+                <h5>正品保障</h5>
+                <p>正品保障，提供发票</p>
+              </div>
+            </li>
+            <li>
+              <h4></h4>
+              <div>
+                <h5>正品保障</h5>
+                <p>正品保障，提供发票</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="mod_help">
+          <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+          </dl>
+          <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+          </dl>
+          <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+          </dl>
+          <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+          </dl>
+          <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+          </dl>
+          <dl>
+            <dt>帮助中心</dt>
+            <dd><a href="#"></a></dd>
+            <dd>品优购客户端</dd>
+          </dl>
+        </div>
+        <div class="mod_copyright">
+          <div>
+            <a href="#">关于我们</a> | <a href="#">联系我们</a> |
+            <a href="#">联系客服</a> | <a href="#">商家入驻</a> |
+            <a href="#">营销中心</a> | <a href="#">手机品优购</a> |
+            <a href="#">友情链接</a> | <a href="#">销售联盟</a> |
+            <a href="#">品优购社区</a> | <a href="#">品优购公益</a> |
+            <a href="#">English Site</a> | <a href="#">Contact U</a>
+          </div>
+          <p>
+            地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096
+            电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br />
+            京ICP备08001421号京公网安备110108007702
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,163 @@
+.header {
+  height: 84px;
+  border-bottom: 2px solid #b3191b;
+  margin-bottom: 20px;
+}
+.header .logo {
+  margin-top: -5px;
+}
+/* 注册页面 */
+.register {
+  height: 522px;
+}
+.register .hd {
+  height: 42px;
+  line-height: 40px;
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+  background-color: #ececec;
+}
+.register .hd .fl {
+  margin-left: 12px;
+}
+.register .hd .fr {
+  margin-right: 12px;
+}
+.register .hd .fr a {
+  color: #d0122c;
+}
+/* 注册详情 */
+.register .bd {
+  position: relative;
+  height: 481px;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  font-size: 12px;
+}
+.register .bd input {
+  width: 240px;
+  height: 36px;
+  border: 1px solid #e0e0e0;
+}
+.register .bd input[type="checkbox"] {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #e0e0e0;
+  vertical-align: bottom;
+}
+.register .bd .tel {
+  position: absolute;
+  left: 331px;
+  top: 51px;
+}
+.register .bd .tel span {
+  color: #c81622;
+  margin-left: 29px;
+}
+.register .bd .tel span::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url("../images/error.png") no-repeat;
+  left: 295px;
+  top: 8px;
+}
+.register .bd .message {
+  position: absolute;
+  left: 307px;
+  top: 111px;
+}
+.register .bd .message span {
+  margin-left: 30px;
+}
+.register .bd .message span::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url("../images/success.png") no-repeat;
+  left: 320px;
+  top: 8px;
+}
+.register .bd .pwd {
+  position: absolute;
+  left: 319px;
+  top: 165px;
+}
+.register .bd .pwd span {
+  margin-left: 30px;
+}
+.register .bd .pwd span::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url("../images/error.png") no-repeat;
+  left: 308px;
+  top: 8px;
+}
+.register .bd .pwd b {
+  position: absolute;
+  left: 162px;
+  top: 46px;
+  color: #bdbdbd;
+}
+.register .bd .pwd b i {
+  padding: 0 10px;
+  margin-right: 5px;
+  color: #fff;
+}
+.register .bd .pwd b i:first-child {
+  background-color: #dd1112;
+  margin-left: 5px;
+}
+.register .bd .pwd b i:nth-child(2) {
+  background-color: #40b73f;
+}
+.register .bd .pwd b i:nth-child(3) {
+  background-color: #f79100;
+}
+.register .bd .yanzheng {
+  position: absolute;
+  left: 319px;
+  top: 244px;
+}
+.register .bd .yanzheng span {
+  margin-left: 30px;
+}
+.register .bd .yanzheng span::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url("../images/error.png") no-repeat;
+  left: 308px;
+  top: 8px;
+}
+.register .bd .agree {
+  position: absolute;
+  left: 413px;
+  top: 324px;
+}
+.register .bd .agree a.zhuce {
+  color: #53aee7;
+}
+.register .bd .complete {
+  position: absolute;
+  left: 390px;
+  top: 385px;
+  text-align: center;
+}
+.register .bd .complete button {
+  color: #fff;
+  background-color: #c81622;
+  width: 200px;
+  height: 34px;
+  line-height: 34px;
+}
+/* 底部栏 */
+.footer {
+  height: 118px;
+  background-color: #fff;
+}

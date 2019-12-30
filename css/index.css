@@ -1,110 +1,77 @@
-/* 版心 */
-.w {
-  width: 1290px;
-  margin: 0 auto;
+.nav {
+  height: 45px;
+  border-bottom: 2px solid #b3181c;
 }
-/* 头部部分 */
-.header {
-  height: 64px;
+/* 左侧 */
+.nav .dropdown {
+  width: 209px;
+  height: 45px;
 }
-.header .logo {
-  float: left;
-  width: 217px;
-  height: 64px;
-  line-height: 64px;
-  margin-left: 65px;
+.nav .dropdown .dt {
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #b1191a;
 }
-.header .logo a {
-  display: block;
+.nav .dropdown .dd {
+  width: 209px;
+  height: 465px;
+  background-color: #c81623;
 }
-.header .logo img {
-  width: 217px;
-  height: 33px;
-  line-height: 33px;
+.nav .dropdown .dd li {
+  height: 31px;
+  line-height: 31px;
+  border-left: 1px solid #c81623;
 }
-.header .nav {
-  float: right;
-  margin-right: 84px;
-  height: 64px;
+.nav .dropdown .dd li:hover {
+  background-color: #fff;
 }
-.header .nav ul {
-  height: 64px;
-}
-.header .nav ul li {
-  float: left;
-  height: 64px;
-  line-height: 64px;
-  margin-left: 40px;
-  font-size: 12px;
-}
-.header .nav ul li a {
-  color: #46494e;
-  display: block;
-}
-.header .nav ul li a:hover {
+.nav .dropdown .dd li:hover a {
   color: #c81623;
 }
-/* banner */
-.banner {
-  width: 1290px;
-  height: 523px;
-}
-.banner ul li a {
+.nav .dropdown .dd li a {
   display: block;
+  padding-left: 12px;
+  color: #fff;
 }
-.banner ul li a img {
-  width: 1290px;
-  height: 523px;
-}
-/* 底部 */
-.footer {
-  height: 419px;
-}
-.footer .left {
-  float: left;
-}
-.footer .left img {
-  width: 367px;
-  height: 384px;
-  display: block;
-  margin-left: 70px;
-  margin-top: 35px;
-}
-.footer .right {
+.nav .dropdown .dd li a::after {
+  content: "\e920";
+  font-family: "icomoon";
   float: right;
-  width: 675px;
-  margin-right: 60px;
-  text-align: center;
+  margin-right: 12px;
 }
-.footer .right h3 {
-  font-size: 20px;
+/* 右侧 */
+.nav .navitems {
+  height: 45px;
+  line-height: 45px;
 }
-.footer .right p {
-  font-size: 14px;
-  line-height: 20px;
-}
-.footer .right .title1 {
-  margin-top: 25px;
-  margin-bottom: 35px;
-}
-.footer .right .title2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.footer .right span {
-  display: block;
-  width: 252px;
-  height: 52px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  line-height: 50px;
-  text-align: center;
+.nav .navitems li {
   float: left;
+  font-size: 16px;
+  margin-left: 45px;
 }
-.footer .right span a {
-  color: #3e94fb;
-  margin-left: 20px;
+/* main */
+.main {
+  width: 981px;
+  height: 454px;
+  margin-left: 219px;
+  margin-top: 10px;
 }
-.footer .right span:last-child {
+.main .focus {
+  float: left;
+  width: 721px;
+  height: 455px;
+}
+.main .newflash {
   float: right;
+  width: 250px;
+  height: 455px;
+  background-color: aquamarine;
+}
+.main .newflash .hd {
+  height: 34px;
+  border: 1px solid #e5e5e5;
+  border-bottom: 1px dotted #e5e5e5;
 }

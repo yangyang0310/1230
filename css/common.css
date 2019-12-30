@@ -1,0 +1,225 @@
+/* 声明字体图标 这里一定要注意路径的变化 */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?tomleg");
+  src: url("../fonts/icomoon.eot?tomleg#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?tomleg") format("truetype"),
+    url("../fonts/icomoon.woff?tomleg") format("woff"),
+    url("../fonts/icomoon.svg?tomleg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+/* 版心 */
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.red {
+  color: #d1171c;
+}
+/* 小导航部分 */
+.shortcut {
+  height: 31px;
+  line-height: 31px;
+  font-size: 12px;
+  background-color: #f1f1f1;
+}
+/* 左边 */
+.shortcut .w .fl ul li {
+  float: left;
+  margin-right: 14px;
+}
+.shortcut .w .fl ul li a {
+  display: block;
+}
+/* 右边 */
+.shortcut .w .fr ul li {
+  float: left;
+}
+.shortcut .w .fr ul li:nth-child(even) {
+  width: 1px;
+  height: 12px;
+  background-color: #afafaf;
+  margin: 9px 5px 10px 5px;
+}
+.shortcut .w .fr ul li a.icon:after {
+  content: "\e91e";
+  font-family: "icomoon";
+  margin-left: 5px;
+}
+.shortcut .w .fr ul li a {
+  display: block;
+  padding: 0 5px;
+}
+/* header部分开始 */
+.header {
+  height: 105px;
+  position: relative;
+}
+/* logo部分 */
+.header .logo {
+  position: absolute;
+  width: 171px;
+  height: 61px;
+  left: 0;
+  top: 22px;
+}
+.header .logo a {
+  display: block;
+  font-size: 0;
+  width: 171px;
+  height: 61px;
+  background: url("../images/logo.png") no-repeat;
+}
+/* 搜索 */
+.header .search {
+  position: absolute;
+  width: 538px;
+  height: 36px;
+  border: 2px solid #b3191b;
+  left: 347px;
+  top: 25px;
+}
+.header .search input {
+  width: 454px;
+  height: 32px;
+  float: left;
+}
+.header .search button {
+  width: 80px;
+  height: 32px;
+  background-color: #b3191b;
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+/* 购物车 */
+.header .shopcar {
+  position: absolute;
+  left: 996px;
+  top: 25px;
+  width: 140px;
+  height: 36px;
+  border: 1px solid #dedede;
+  background-color: #f7f7f7;
+  line-height: 34px;
+  text-align: center;
+  font-size: 12px;
+}
+.header .shopcar::before {
+  content: "\e93a";
+  font-family: "icomoon";
+  margin-right: 10px;
+  color: #b3191b;
+}
+.header .shopcar::after {
+  content: "\e920";
+  font-family: "icomoon";
+  margin-left: 15px;
+}
+.header .shopcar i {
+  position: absolute;
+  left: 90px;
+  top: -5px;
+  height: 14px;
+  line-height: 14px;
+  padding: 0 7px;
+  background-color: #b3191b;
+  border-radius: 7px 7px 7px 0;
+  color: #fff;
+}
+/* 热词 */
+.header .keywords {
+  position: absolute;
+  left: 360px;
+  top: 70px;
+  font-size: 12px;
+}
+.header .keywords ul li {
+  float: left;
+  margin-right: 25px;
+}
+/* 底部栏 */
+.footer {
+  height: 417px;
+  background-color: #f5f5f5;
+}
+/* 服务模块 */
+.footer .w .mod_service {
+  height: 110px;
+  padding: 30px 0 0 35px;
+  border-bottom: 1px solid #ccc;
+}
+.footer .w .mod_service li {
+  float: left;
+  width: 220px;
+}
+.footer .w .mod_service li h4 {
+  float: left;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  background: url("../images/icons.png") no-repeat -253px -3px;
+}
+.footer .w .mod_service li h5 {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer .w .mod_service li p {
+  font-size: 12px;
+}
+/* 帮助模块 */
+.footer .w .mod_help {
+  height: 189px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 50px;
+}
+.footer .w .mod_help dl {
+  float: left;
+  margin-top: 15px;
+  width: 200px;
+}
+.footer .w .mod_help dl dt {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer .w .mod_help dl dd {
+  font-size: 12px;
+  line-height: 22px;
+}
+.footer .w .mod_help dl:last-child {
+  width: 90px;
+  text-align: center;
+}
+.footer .w .mod_help dl:last-child a {
+  display: block;
+  width: 90px;
+  height: 90px;
+  background: url("../images/wx_cz.jpg");
+}
+
+/* 版权模块 */
+.footer .mod_copyright {
+  text-align: center;
+}
+.footer .mod_copyright div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer .mod_copyright div a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.footer .mod_copyright p {
+  line-height: 25px;
+}

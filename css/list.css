@@ -1,0 +1,127 @@
+/* header秒杀 */
+.header .ms {
+  position: absolute;
+  left: 186px;
+  top: 40px;
+  padding: 3px 0 0 15px;
+  border-left: 1px solid #d30e22;
+}
+.header .ms img {
+  display: block;
+}
+/* nav部分 */
+.nav {
+  height: 47px;
+  line-height: 45px;
+  border-bottom: 2px solid #b2191b;
+}
+/* 左边 */
+.nav .dropdown {
+  float: left;
+  padding-left: 30px;
+}
+.nav .dropdown ul li {
+  float: left;
+  margin-right: 57px;
+}
+.nav .dropdown ul li a {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+/* 右边 */
+.nav .navitems {
+  float: left;
+}
+.nav .navitems ul li {
+  float: left;
+  margin-right: 50px;
+}
+.nav .navitems ul li a {
+  display: block;
+  font-size: 14px;
+}
+.nav .navitems ul li:last-child a::after {
+  content: "\e91e";
+  font-family: "icomoon";
+  margin-left: 5px;
+}
+/* 抢购部分 */
+.shop .bd li {
+  float: left;
+  width: 290px;
+  height: 460px;
+  border: 1px solid orange;
+  margin-right: 13px;
+  margin-bottom: 10px;
+}
+.shop .bd li:nth-child(4n) {
+  margin-right: 0;
+}
+.shop .bd li img {
+  width: 100%;
+}
+.shop .bd li h5 {
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.shop .bd li .price {
+  margin-bottom: 10px;
+}
+.shop .bd li .price .newprice {
+  color: #e60012;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 13px;
+  margin-right: 8px;
+}
+.shop .bd li .price .oldprice {
+  font-size: 12px;
+  color: #a4a4a4;
+  font-weight: 700;
+}
+.shop .bd li .sell {
+  margin-bottom: 5px;
+}
+.shop .bd li .sell .sold {
+  color: #666;
+  font-size: 12px;
+  padding-left: 13px;
+  float: left;
+}
+.shop .bd li .sell .progress {
+  position: relative;
+  float: left;
+  width: 132px;
+  height: 12px;
+  border: 1px solid #ed282e;
+  border-radius: 6px;
+  margin: 5px 10px 0 10px;
+}
+.shop .bd li .sell .progress .in {
+  position: absolute;
+  width: 87%;
+  height: 100%;
+  background-color: #ed282e;
+  left: 0;
+  top: 0;
+}
+.shop .bd li .sell b {
+  float: left;
+  font-size: 12px;
+}
+.shop .bd li .qiang {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #b2191b;
+  text-align: center;
+  color: #fff;
+}
